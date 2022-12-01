@@ -32,6 +32,7 @@
                         $('.test').html('');
                         $('.test').append(data);
                         console.log(data);
+                        console.log(data);
                     }
                 });
             });
