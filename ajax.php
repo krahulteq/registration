@@ -14,8 +14,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $allowed_image_extension = array("png", "jpg", "jpeg");
 
     // written by me
-    // $profile = $name . '.' . $imageFileType;
-    // $target_file = $target_dir . basename($profile);
+        $profile = $name . '.' . $imageFileType;
+        $target_file = $target_dir . basename($profile);
 
     if (empty($_FILES["file"]["name"])) {
         echo 'Please select image';
